@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		033517381659215E00E52E96 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033517371659215E00E52E96 /* Cocoa.framework */; };
+		0335173A1659215E00E52E96 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 033517391659215E00E52E96 /* MacRuby.framework */; };
+		033517431659215E00E52E96 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 033517411659215E00E52E96 /* InfoPlist.strings */; };
+		033517451659215E00E52E96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 033517441659215E00E52E96 /* main.m */; };
+		0335174A1659215E00E52E96 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 033517481659215E00E52E96 /* MainMenu.xib */; };
+		0335174D1659215E00E52E96 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0335174C1659215E00E52E96 /* rb_main.rb */; };
+		0335174F1659215E00E52E96 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 0335174E1659215E00E52E96 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0335173C1659215E00E52E96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0335172A1659215D00E52E96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 033517321659215D00E52E96;
+			remoteInfo = MailTesterOSX;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		033517331659215E00E52E96 /* MailTesterOSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailTesterOSX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		033517371659215E00E52E96 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		033517391659215E00E52E96 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		033517401659215E00E52E96 /* MailTesterOSX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MailTesterOSX-Info.plist"; sourceTree = "<group>"; };
+		033517421659215E00E52E96 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		033517441659215E00E52E96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		033517461659215E00E52E96 /* MailTesterOSX-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MailTesterOSX-Prefix.pch"; sourceTree = "<group>"; };
+		033517491659215E00E52E96 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		0335174C1659215E00E52E96 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		0335174E1659215E00E52E96 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		033517301659215D00E52E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033517381659215E00E52E96 /* Cocoa.framework in Frameworks */,
+				0335173A1659215E00E52E96 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		033517281659215D00E52E96 = {
+			isa = PBXGroup;
+			children = (
+				0335173E1659215E00E52E96 /* MailTesterOSX */,
+				033517361659215E00E52E96 /* Frameworks */,
+				033517341659215E00E52E96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		033517341659215E00E52E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				033517331659215E00E52E96 /* MailTesterOSX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		033517361659215E00E52E96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				033517371659215E00E52E96 /* Cocoa.framework */,
+				033517391659215E00E52E96 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0335173E1659215E00E52E96 /* MailTesterOSX */ = {
+			isa = PBXGroup;
+			children = (
+				0335174E1659215E00E52E96 /* AppDelegate.rb */,
+				033517471659215E00E52E96 /* Resources */,
+				0335174B1659215E00E52E96 /* Other Sources */,
+				0335173F1659215E00E52E96 /* Supporting Files */,
+			);
+			path = MailTesterOSX;
+			sourceTree = "<group>";
+		};
+		0335173F1659215E00E52E96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				033517401659215E00E52E96 /* MailTesterOSX-Info.plist */,
+				033517411659215E00E52E96 /* InfoPlist.strings */,
+				033517441659215E00E52E96 /* main.m */,
+				033517461659215E00E52E96 /* MailTesterOSX-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		033517471659215E00E52E96 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				033517481659215E00E52E96 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		0335174B1659215E00E52E96 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0335174C1659215E00E52E96 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		0335173B1659215E00E52E96 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 033517551659215E00E52E96 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				0335173D1659215E00E52E96 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		033517321659215D00E52E96 /* MailTesterOSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033517521659215E00E52E96 /* Build configuration list for PBXNativeTarget "MailTesterOSX" */;
+			buildPhases = (
+				0335172F1659215D00E52E96 /* Sources */,
+				033517301659215D00E52E96 /* Frameworks */,
+				033517311659215D00E52E96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailTesterOSX;
+			productName = MailTesterOSX;
+			productReference = 033517331659215E00E52E96 /* MailTesterOSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0335172A1659215D00E52E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Nicolas;
+			};
+			buildConfigurationList = 0335172D1659215D00E52E96 /* Build configuration list for PBXProject "MailTesterOSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 033517281659215D00E52E96;
+			productRefGroup = 033517341659215E00E52E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				033517321659215D00E52E96 /* MailTesterOSX */,
+				0335173B1659215E00E52E96 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		033517311659215D00E52E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033517431659215E00E52E96 /* InfoPlist.strings in Resources */,
+				0335174A1659215E00E52E96 /* MainMenu.xib in Resources */,
+				0335174D1659215E00E52E96 /* rb_main.rb in Resources */,
+				0335174F1659215E00E52E96 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0335172F1659215D00E52E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				033517451659215E00E52E96 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0335173D1659215E00E52E96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 033517321659215D00E52E96 /* MailTesterOSX */;
+			targetProxy = 0335173C1659215E00E52E96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		033517411659215E00E52E96 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033517421659215E00E52E96 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		033517481659215E00E52E96 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				033517491659215E00E52E96 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		033517501659215E00E52E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		033517511659215E00E52E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		033517531659215E00E52E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MailTesterOSX/MailTesterOSX-Prefix.pch";
+				INFOPLIST_FILE = "MailTesterOSX/MailTesterOSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		033517541659215E00E52E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MailTesterOSX/MailTesterOSX-Prefix.pch";
+				INFOPLIST_FILE = "MailTesterOSX/MailTesterOSX-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		033517561659215E00E52E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		033517571659215E00E52E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0335172D1659215D00E52E96 /* Build configuration list for PBXProject "MailTesterOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033517501659215E00E52E96 /* Debug */,
+				033517511659215E00E52E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		033517521659215E00E52E96 /* Build configuration list for PBXNativeTarget "MailTesterOSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033517531659215E00E52E96 /* Debug */,
+				033517541659215E00E52E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		033517551659215E00E52E96 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				033517561659215E00E52E96 /* Debug */,
+				033517571659215E00E52E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0335172A1659215D00E52E96 /* Project object */;
+}
